@@ -1,0 +1,1 @@
+{{ generate_doc('RATE','RATE','RATE description') }}
