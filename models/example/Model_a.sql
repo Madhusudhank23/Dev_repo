@@ -1,1 +1,1 @@
-{{ generate_doc('RATE','RATE','RATE description') }}
+{{ generate_doc('RATE','RATE description') }}
