@@ -5,8 +5,8 @@
 
         {%- for i in range(results.columns[0].values()|length) -%}
                 {{- "{% docs " ~ results.columns[0].values()[i] ~ " %}\n" -}}
-                {{-        results.columns[1].values()[i] ~ "\n" -}}
-                {{- "{% enddocs %}/n/n"}}
+                {{- "    "~results.columns[1].values()[i] | replace('"',"")~ "\n" -}}
+                {{- "{% enddocs %}\n"}}
         {%- endfor -%}
     {%- endif -%}
 
